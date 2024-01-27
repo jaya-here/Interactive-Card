@@ -1,0 +1,39 @@
+.backcard__image {
+    width: 300px;
+    
+}
+
+.backcard__wrapper {
+    position: relative;
+    width: 300px;
+    transform: translate(11.5%, 10%);
+    z-index: 0;
+}
+
+.backcard__number {
+    position: absolute;
+    top: -1.65rem;
+    right: 2.2rem;
+    z-index: 20;
+    color: lightgray;
+    display: flex;
+    height: 100%;
+    align-items: center;
+  
+}
+
+@media screen and (min-width:1440px) {
+    .backcard{
+        position:absolute;
+        margin-right: 10em;
+    }
+
+    .backcard__image {
+        width: 350px;
+    }
+
+    .backcard__wrapper {
+        width: 350px;
+        transform: translate(11.5%, 75%);
+    }
+}

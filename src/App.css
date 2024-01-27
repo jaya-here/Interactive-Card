@@ -1,0 +1,66 @@
+html{
+  height: 120%;
+}
+
+body {
+  background-image: url('./assets/images/bg-main-mobile.png');
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.front__card {
+  position: relative;
+}
+
+.container {
+  max-width: 27em;
+  margin: 0 auto;
+}
+
+.card__set {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width:1440px) {
+  
+body {
+  background-image: none;
+}
+
+.front__card {
+  position: relative;
+}
+
+.container {
+  max-width: none;
+  margin: 0 auto;
+}
+
+.card__set {
+  display: block;
+  position: absolute;
+  top: 25%;
+  left: 60%;
+
+}
+
+.desktop-view {
+  display: flex;
+  justify-content: space-between;
+}
+
+.desktop-side-view {
+  background-image: url('./assets/images/bg-main-desktop.png');
+  flex-basis: 30%;
+  height: 100vh;
+  position: relative;
+}
+  
+}
+

@@ -1,0 +1,120 @@
+.cardform {
+    width: 100%;
+    padding:6.5rem 1.5rem 4rem 1.5rem;
+    transform: translatey(12.5%);
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+.card_input {
+    margin: 1rem 0;
+    flex-grow: 1;
+}
+
+label {
+    color: #000;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    display: block;
+    font-size:small;
+    margin-bottom: 0.3rem;
+}
+
+.card__input {
+    display: block;
+    border:1px solid hsl(270, 3%, 87%);
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 0.4rem;
+    padding-left: 1rem;
+    font-size: large;
+    box-sizing: border-box;
+}
+
+input {
+    margin-bottom: 0.1rem;
+}
+
+input::placeholder {
+    color:lightgray;
+}
+
+.input__error {
+    color:red;
+    font-size: small;
+}
+
+
+
+.card__input__cvc {
+    display: block;
+    border:1px solid hsl(270, 3%, 87%);
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 0.4rem;
+    padding-left: 1rem;
+    font-size: large;
+    box-sizing: border-box;
+ 
+    
+}
+
+.card__input__date {
+    display: block;
+    border:1px solid hsl(270, 3%, 87%);
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 0.4rem;
+    padding-left: 1rem;
+    font-size: large;
+    box-sizing: border-box;
+    
+}
+
+.card__lastrow {
+    display: flex;
+    gap:1rem;
+}
+
+.card_input__type1 {
+    margin: 1rem 0;
+    flex: 1 0 25%;
+}
+
+.card_input__type2 {
+    margin: 1rem 0;
+    flex-basis: 50%;
+}
+
+ .card__year{
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+   
+ }
+
+ .card__date__input {
+    display: flex;
+    gap:1rem;
+ }
+
+ .submit-button {
+    color:white;
+    width: 100%;
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+ }
+
+ @media screen and (min-width:1440px) {
+    .cardform {
+        width: 35em;
+        padding:4rem 1.5rem 4rem 1.5rem;
+        transform: translatey(20%);
+        box-sizing: border-box;
+        background-color: whitesmoke;
+        margin:2em 10em 0em 0em;
+    }
+ }
